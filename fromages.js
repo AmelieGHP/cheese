@@ -42,7 +42,7 @@ const cheeses = [
         fromageImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Tomme_noire_des_Pyrenees.jpg/390px-Tomme_noire_des_Pyrenees.jpg',
         typeDeLait: 'vache cru',
         typeDePate: 'pressée non cuite',
-        origine: 'Pyrénées',
+        origine: 'Pyrénées Atlantique, Hautes-Pyrénées, Ariège',
         description: "Tomme des Pyrénées est une dénomination protégée par Indication géographique protégée (IGP) désignant un fromage au lait de vache cru et pasteurisé fabriqué dans les Pyrénées françaises.",
     },
     {
@@ -52,7 +52,7 @@ const cheeses = [
         typeDeLait: 'vache cru',
         typeDePate: 'molle à croûte fleurie',
         origine: 'Seine-et-Marne',
-        description: "Le brie de Meaux est un fromage au lait cru dont l'appellation d'origine est préservée commercialement via une AOC depuis 1980. Son aire de production s'étend des plaines briardes jusqu'à la Meuse. Son appellation vient de la région de la Brie et de la commune de Meaux en France.Sa meilleure période de consommation s'étend de juillet à mars.",
+        description: "Le brie de Meaux est un fromage au lait cru dont l'appellation d'origine est préservée commercialement via une AOC depuis 1980. Son aire de production s'étend des plaines briardes jusqu'à la Meuse. Son appellation vient de la région de la Brie et de la commune de Meaux en France. Sa meilleure période de consommation s'étend de juillet à mars.",
     },
     {
         id: 7,
@@ -61,7 +61,7 @@ const cheeses = [
         typeDeLait: 'chèvre cru',
         typeDePate: 'molle à croûte naturelle',
         origine: 'Saône-et-Loire',
-        description: "Charolais est une appellation d'origine française désignant un fromage au lait cru de chèvre, à pâte molle à croûte naturelle. Originaire des collines du Charolais et du Brionnais, en Bourgogne, ce fromage est aujourd'hui produit dans certaines communes de Saône-et-Loire majoritairement, mais aussi dans l'Allier, la Loire et le Rhône. Cette appellation est protégée en France depuis 2010 par une appellation d'origine contrôlée (AOC) et depuis juin 2014 par une appellation d'origine protégée (AOP).Sa meilleure période de consommation s'étend d'avril à novembre.",
+        description: "Charolais est une appellation d'origine française désignant un fromage au lait cru de chèvre, à pâte molle à croûte naturelle. Originaire des collines du Charolais et du Brionnais, en Bourgogne, ce fromage est aujourd'hui produit dans certaines communes de Saône-et-Loire majoritairement, mais aussi dans l'Allier, la Loire et le Rhône. Cette appellation est protégée en France depuis 2010 par une appellation d'origine contrôlée (AOC) et depuis juin 2014 par une appellation d'origine protégée (AOP). Sa meilleure période de consommation s'étend d'avril à novembre.",
     },
     {
         id: 8,
@@ -70,7 +70,7 @@ const cheeses = [
         typeDeLait: 'vache cru',
         typeDePate: 'pressée non cuite',
         origine: 'Doubs',
-        description: "Morbier est une appellation d'origine désignant un fromage de lait cru de vache, fabriqué dans le massif du Jura en France, et qui tire son nom du bourg jurassien de Morbier. Cette appellation est protégée grâce à une AOP depuis 2002.Sa meilleure période de consommation s'étend de janvier à mars.",
+        description: "Morbier est une appellation d'origine désignant un fromage de lait cru de vache, fabriqué dans le massif du Jura en France, et qui tire son nom du bourg jurassien de Morbier. Cette appellation est protégée grâce à une AOP depuis 2002. Sa meilleure période de consommation s'étend de janvier à mars.",
     },
     {
         id: 9,
@@ -124,7 +124,7 @@ const cheeses = [
         typeDeLait: 'chèvre cru',
         typeDePate: 'molle à croûte naturelle',
         origine: 'Cher',
-        description: "Le crottin de Chavignol est un fromage de chèvre français originaire du village berrichon de Chavignol situé dans le département du Cher, la région Centre-Val de Loire et la région naturelle du Sancerrois. Il bénéficie d'une appellation d'origine contrôlée (AOC) depuis 1976 et de l'appellation d'origine protégée (AOP) depuis 19961. Le Syndicat du crottin de Chavignol est une association à laquelle adhèrent les éleveurs et fromagers de l'AOP2.Sa meilleure période de consommation s'étend d'avril à novembre.",
+        description: "Le crottin de Chavignol est un fromage de chèvre français originaire du village berrichon de Chavignol situé dans le département du Cher, la région Centre-Val de Loire et la région naturelle du Sancerrois. Il bénéficie d'une appellation d'origine contrôlée (AOC) depuis 1976 et de l'appellation d'origine protégée (AOP) depuis 1996. Le Syndicat du crottin de Chavignol est une association à laquelle adhèrent les éleveurs et fromagers de l'AOP. Sa meilleure période de consommation s'étend d'avril à novembre.",
     },
     {
         id: 15,
@@ -133,7 +133,7 @@ const cheeses = [
         typeDeLait: 'vache lait cru',
         typeDePate: 'pressée cuite',
         origine: 'Savoie',
-        description: "L'emmental de Savoie est un fromage de vache au lait cru fabriqué en France dans les départements alpins de la Savoie et de la Haute-Savoie. Il fait partie de la famille des fromages à pâte pressée cuite. Le nom de ce fromage français est une indication géographique protégée. Il est parfois appelé à tort « gruyère ».Sa meilleure période de consommation s'étend de mai à octobre.",
+        description: "L'emmental de Savoie est un fromage de vache au lait cru fabriqué en France dans les départements alpins de la Savoie et de la Haute-Savoie. Il fait partie de la famille des fromages à pâte pressée cuite. Le nom de ce fromage français est une indication géographique protégée. Il est parfois appelé à tort « gruyère ». Sa meilleure période de consommation s'étend de mai à octobre.",
     },
     {
         id: 16,
@@ -156,12 +156,12 @@ const cheeses = [
     },
     {
         id: 18,
-        fromageName: "Saint-nectaire",
+        fromageName: "Saint-Nectaire",
         fromageImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Saint-Nectaire.jpg/390px-Saint-Nectaire.jpg',
         typeDeLait: 'vache cru ou pasteurisé',
         typeDePate: 'pressée non cuite',
         origine: 'Cantal',
-        description: "Saint-nectaire est une appellation d'origine désignant un fromage français de lait de vache fabriqué dans la micro-région des Monts Dore, pays à cheval sur les départements du Cantal et du Puy-de-Dôme en France. Le savoir-faire des artisans du Saint-Nectaire a été reconnu par le ministère de la Culture est inscrit à l'inventaire du patrimoine culturel immatériel en France en 2019.Sa meilleure période de consommation s'étend de septembre à novembre.",
+        description: "Saint-nectaire est une appellation d'origine désignant un fromage français de lait de vache fabriqué dans la micro-région des Monts Dore, pays à cheval sur les départements du Cantal et du Puy-de-Dôme en France. Le savoir-faire des artisans du Saint-Nectaire a été reconnu par le ministère de la Culture est inscrit à l'inventaire du patrimoine culturel immatériel en France en 2019. Sa meilleure période de consommation s'étend de septembre à novembre.",
     },
     {
         id: 19,
@@ -170,7 +170,7 @@ const cheeses = [
         typeDeLait: 'vache cru',
         typeDePate: 'pressée cuite',
         origine: 'Haute-Savoie',
-        description: "L'Abondance est un fromage au lait cru français fabriqué en Haute-Savoie, qui bénéficie d'une appellation d'origine protégée. Ce fromage à pâte pressée cuite est exclusivement issu de la transformation de laits crus de vache produits dans le département. Il partage son nom avec la vallée qui l'a vu naître, le val d'Abondance, et la race bovine qui lui donne son lait, l'abondance. Son goût de noisette le fait apprécier tel quel ou fondu dans de nombreux plats cuisinés. Sa meilleure période de consommation s'étend de juin à décembre.",
+        description: "L'Abondance est un fromage au lait cru français fabriqué en Haute-Savoie, qui bénéficie d'une appellation d'origine protégée. Ce fromage à pâte pressée cuite est exclusivement issu de la transformation de laits crus de vache produits dans le département. Il partage son nom avec la vallée qui l'a vu naître, le val d'Abondance, et la race bovine qui lui donne son lait, l'Abondance. Son goût de noisette le fait apprécier tel quel ou fondu dans de nombreux plats cuisinés. Sa meilleure période de consommation s'étend de juin à décembre.",
     },
     {
         id: 20,
@@ -179,7 +179,7 @@ const cheeses = [
         typeDeLait: 'vache cru',
         typeDePate: 'pressée cuite',
         origine: 'Savoie',
-        description: "Beaufort est l'appellation d'origine d'un fromage au lait cru de vache, à pâte pressée cuite, élaboré en Savoie en France. La production du lait et sa transformation s'effectuent dans une aire comprenant la région du Beaufortain d'où il tire son nom. Il est formé en meule à talon légèrement concave. L'appellation beaufort est préservée commercialement via une Appellation d'Origine Protégée. Autrefois, le volume produit par un grand nombre de producteurs fermiers était important, puis il a payé un lourd tribut à l'exode rural et aux contraintes spécifiques de production laitière qui étaient mal valorisées. Son appellation a été préservée dès 1968 via une AOC. Il est aujourd'hui un des représentants de la cuisine savoyarde : de la fondue savoyarde au gratin de crozets, le beaufort est présent sur de nombreuses tables de lieux touristiques du pays.Brillat-Savarin l'a surnommé le « Prince des gruyères ».",
+        description: "La production du lait et sa transformation s'effectuent dans une aire comprenant la région du Beaufortain d'où il tire son nom. Il est formé en meule à talon légèrement concave. L'appellation beaufort est préservée commercialement via une Appellation d'Origine Protégée. Son appellation a été préservée dès 1968 via une AOC. Il est aujourd'hui un des représentants de la cuisine savoyarde : de la fondue savoyarde au gratin de crozets, le beaufort est présent sur de nombreuses tables de lieux touristiques du pays. Brillat-Savarin l'a surnommé le « Prince des gruyères ».",
     },
     {
         id: 21,
@@ -188,7 +188,7 @@ const cheeses = [
         typeDeLait: 'vache, chèvre ou brebis cru',
         typeDePate: 'pressée non cuite',
         origine: 'Pyrénées ariégeoises',
-        description: "Le bethmale ou oustet est un des rares fromages de vache originaires des Pyrénées ariégeoises. Il tire son nom de la vallée de Bethmale où il était fabriqué à l'origine. Selon la légende du terroir, le premier bethmale daterait de l'occupation des Maures, au xive siècle. C'est un fromage à pâte pressée non cuite, en forme de petite meule. Sa pâte est dense, avec parfois quelques trous de la taille d'un grain de riz. Historiquement, le lait utilisé provenait de vaches de race casta ou gasconne. Aujourd'hui, la production laitière du Couserans ne suffit pas au besoin des fromageries locales.",
+        description: "Le bethmale ou oustet est un des rares fromages de vache originaires des Pyrénées ariégeoises. Il tire son nom de la vallée de Bethmale où il était fabriqué à l'origine. Selon la légende du terroir, le premier bethmale daterait de l'occupation des Maures, au xive siècle. C'est un fromage à pâte pressée non cuite, en forme de petite meule. Sa pâte est dense, avec parfois quelques trous de la taille d'un grain de riz. Historiquement, le lait utilisé provenait de vaches de race casta ou gasconne.",
     },
     {
         id: 22,
@@ -197,7 +197,7 @@ const cheeses = [
         typeDeLait: 'vache',
         typeDePate: 'pâte persillée',
         origine: 'Quercy',
-        description: "Il est à base de lait de vache, il a une pâte molle persillée recouverte d'une croûte naturelle. Il fait partie de la famille des bleus à croûte amincie par brossage. 12 semaines d'affinage en cave humide lui sont nécessaires avant de pouvoir être dégusté. Ce fromage contient 45 % de matière grasse.",
+        description: "Il est à base de lait de vache, il a une pâte molle persillée recouverte d'une croûte naturelle. Il fait partie de la famille des bleus à croûte amincie par brossage. 12 semaines d'affinage en cave humide lui sont nécessaires avant de pouvoir être dégusté. ",
     },
     {
         id: 23,
@@ -420,5 +420,25 @@ const cheeses = [
         origine: 'Haute-Savoie',
         description: "C'est un fromage au lait cru et entier de vache à pâte pressée non cuite et croûte lavée, fabriqué à partir du lait de races bovines montagnardes Abondance, Tarine et Montbéliarde. Le reblochon de Savoie est un fromage de terroir, apprécié aussi bien cuit, en tartiflette, que tout simplement sur un plateau de fromages.",
 
-    }]
-console.log(cheeses.length)
+    },
+    {
+        id: 47,
+        fromageName: "Maroilles",
+        fromageImage: 'https://static.750g.com/images/1200-630/9138dd8510b731809ce1502ab016216a/248747.jpg',
+        typeDeLait: 'vache cru',
+        typeDePate: 'molle à croûte lavée',
+        origine: 'Nord',
+        description: "Considéré comme le roi des fromages du Nord, et présenté comme le plus fin des fromages forts. La fabrication du Maroilles a lieu dans une cave humide, où il est affiné pendant 3 à 5 semaines selon le format, au cours desquelles il est brossé et lavé à l’eau salée. Il s’agit d’une opération importante qui va conditionner la qualité du fromage et lui donner sa magnifique couleur orangée naturelle, sa saveur originale et ses arômes spécifiques.",
+
+    },
+    {
+        id: 48,
+        fromageName: "Sainte Maure de Touraine",
+        fromageImage: 'https://fromagerie-savoie.com/83-home_default/buche-chevre-cendree.jpg',
+        typeDeLait: 'chèvre cru',
+        typeDePate: 'molle à croûte naturelle',
+        origine: 'Indre-et-Loire, Loir-et-Cher',
+        description: "Le Sainte- Maure de Touraine est un fromage de chèvre à croûte naturelle et à pâte molle. Il est percé dune paille en son centre, sur toute la longueur. Cette tige sert à tenir le fromage et à éviter qu'il ne casse. Son goût légèrement typé chèvre et acidulé ainsi que sa texture fine et fondante séduiront les amateurs de fromages frais.",
+
+    }
+]
